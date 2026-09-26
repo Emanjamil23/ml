@@ -1,0 +1,24 @@
+{
+  "trained_at": "2026-09-26T09:10:57.380669Z",
+  "algorithm": "RandomForestClassifier",
+  "n_estimators": 50,
+  "class_weight": "balanced",
+  "random_state": 42,
+  "sklearn_version": "1.9.0",
+  "dataset": "Fraud.csv",
+  "dataset_rows": 29999,
+  "n_features": 16,
+  "threshold": 20756.62,
+  "metrics": {
+    "accuracy": 0.9985,
+    "precision": 1.0,
+    "recall": 0.47058823529411764,
+    "f1": 0.64
+  },
+  "artifacts": {
+    "model": "model_1.pkl",
+    "scaler": "scaler_1.pkl",
+    "features": "features_1.pkl",
+    "threshold": "threshold_1.pkl"
+  }
+}
